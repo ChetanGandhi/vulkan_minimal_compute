@@ -1,27 +1,43 @@
-**.bak
-**.mtl
-**.orig
-**/*.dll
-**/*.exe
-*.pyc
-.DS_Store
-/CMakeLists.txt
-OpenGL-tutorial_v*
-Thumbs.db
-bin-*/*
-build/*
-distrib/build_*/*
-makefile
-screenshot.bmp
-docs/
+# Prerequisites
+*.d
 
-Win32/
-docs/
-src_img/
-src_img_copy/
-build/
-comment
-head.obj
-mask.obj
-venus.obj
-marble.png
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.def
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# debug information files
+*.dwo
